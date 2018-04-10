@@ -2,6 +2,16 @@
 var score = 0;
 var hasConflict = new Array();
 
+if (navigator.geolocation) {
+	navigator.geolocation.getCurrentPosition(function(position) {
+		var longitude = position.coords.longitude;  
+		var latitude = position.coords.latitude;  
+		alert(longitude)
+		alert(latitude)
+	})
+}s
+
+
 var startx = 0;
 var starty = 0;
 var data = {
