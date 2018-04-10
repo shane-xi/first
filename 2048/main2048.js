@@ -9,7 +9,7 @@ if (navigator.geolocation) {
 		alert(longitude)
 		alert(latitude)
 	})
-}s
+}
 
 
 var startx = 0;
